@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>FORMATO UNICO HOJA DE VIDA</title>
+	<link rel="stylesheet" href="css/estilos.css">
+	<!-- <script type="text/javascript" src="js/script.js"></script>-->
+</head>
+<body>
+	<form action="#" onsubmit="return validarcheckbutton();">
+	<div id=Documento>
+
+		<header>
+			<div id="Cabeza">
+
+				<div id="Imagen">
+
+				<img src="img/Escudo.jpg" >
+
+			</div>
+
+			<div id="Formato" >
+
+		 		<p>FORMATO ÚNICO</p>
+				<h1>HOJA DE VIDA</h1>
+				<p>Persona Natural</p>
+				<p>(Leyes 190 de 1995, 489 y 443 de 1998)</p>
+			</div>
+
+			<div id="Entidad">
+				<h6 align="center">ENTIDAD RECEPTORA</h6>
+				<p><input class="w3-input w3-border w3-sand" type="text" name="EntidadR"></p>
+
+			</div>
+
+			</div>
+
+		</header>
+
+		<section class="DatosPersonales">
+
+			<div class="SubTitulo">
+				<span class="Numero" onclick="acordeon1()">1</span><hr><span class="Titulo" onclick="acordeon1()">Datos Personales</span>
+			</div>
+
+			<div class="CamposFormulario" id="Formulario1">
+
+				<div id="Campos1">
+					<div id="Apellido1">
+						<p class="CampoEncabezado"><i>PRIMER APELLIDO</i></p>
+						<input type="text" name="PrimerApellido" id="Apellido" required>
+
+					</div>
+
+					<div id="Apellido2">
+						<p class="CampoEncabezado"><i>SEGUNDO APELLIDO (O DE CASADA)</i></p>
+						<input type="text" name="SegundoApellido" required>
+
+					</div>
+					<div id="Nombres">
+						<p class="CampoEncabezado"><i>NOMBRES</i></p>
+						<input type="text" name="Nombre" required>
+
+					</div>
+				</div>
+
+				<div id="Campos2">
+
+					<div id="DocIdentificacion">
+						<p class="CampoEncabezado"><i>DOCUMENTO DE IDENTIFICACIÓN</i></p>
+						<span class="documento_diseño">C.C</span>
+						<input type="radio" name="Docid">
+						<span class="documento_diseño">C.E</span>
+						<input type="radio" name="Docid">
+						<span class="documento_diseño">PAS</span>
+						<input type="radio" name="Docid">
+						<span class="documento_diseño">No.</span>
+						<input type="text" name="Ndoc" class="Docimput" required>
+
+					</div>
+
+					<div id="Sexo">
+						<p class="CampoEncabezado"><i>SEXO</i></p>
+						<span class="documento_diseño">F</span>
+						<input type="radio" name="sexo">
+						<span class="documento_diseño">M</span>
+						<input type="radio" name="sexo">
+
+					</div>
+
+					<div id="Nacionalidad">
+
+					<p class="CampoEncabezado"><i>NACIONALIDAD&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;PAIS</i></p>
+						<span class="documento_diseño">COL.</span>
+						<input type="radio" name="Nacid" >
+						<span class="documento_diseño">EXTRANJERO</span>
+						<input type="radio" name="Nacid">
+						<input type="text" name="Pais" class="Docinput" required>
+
+					</div>
+
+				</div>
+
+				<div id="Campos3">
+
+					<div id="LibretaMilitar">
+						<p class="CampoEncabezado"><i>LIBRETA MILITAR</i></p>
+						<span class="documento_diseño">PRIMERA CLASE</span>
+						<input type="radio" name="Milid">
+						<span class="documento_diseño">SEGUNDA CLASE</span>
+						<input type="radio" name="Milid">
+						<span class="CampoEncabezado">NUMERO</span>
+						<input type="text" name="lmilitar" class="Docinput" required>
+						<span class="CampoEncabezado">D.M</span>
+						<input type="text" name="dm" class="Docinput" required>
+					</div>
+
+				</div>
+
+				<div id="Campo4">
+
+					<div id="LugarNacimiento">
+						<p class="CampoEncabezado"><i>FECHA Y LUGAR DE NACIMIENTO</i></p>
+						<span class="CampoEncabezado">FECHA</span>
+						<span class="CampoEncabezado">DIA</span>
+						<input type="text" name="dia" class="dia" required>
+						<span class="CampoEncabezado">MES</span>
+						<input type="text" name="mes" class="mes" required>
+						<span class="CampoEncabezado">AÑO</span><input type="text" name="anio" class="anio" required>
+
+						<p><span class="CampoEncabezado">PAIS</span>
+						<input type="text" name="pais" class="pais" required></p>
+						<p><span class="CampoEncabezado">DEPTO</span><input type="text" name="depto" class="depto" required></p>
+						<p><span class="CampoEncabezado">MUNICIPIO</span><input type="text" name="municipio" class="municipio" required></p>
+
+					</div>
+
+					<div id="Correspondencia">
+
+						<p class="CampoEncabezado"><i>DIRECCION DE CORRESPONDENCIA</i></p>
+						<p><input type="text" name="linea"  class="lineaCorre" required></p>
+						<span class="CampoEncabezado">PAIS</span> <input type="text" name="pais" class="pais" required>
+						<span class="CampoEncabezado">DEPTO</span> <input type="text" name="deptp" class="depto" required>
+						<p><span class="CampoEncabezado">MUNICIPIO</span><input type="text" name="linea" class="municipio" required></p>
+						<span class="CampoEncabezado">TELEFONO</span><input type="text" name="linea" class="telefono" required>
+						<span class="CampoEncabezado">EMAIL</span><input type="text" name="line"a class="email" required>
+
+					</div>
+
+				</div>
+			</div>
+
+		</section>
+
+	</div>
+
+	</form>
+</body>
+</html>

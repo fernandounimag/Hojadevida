@@ -1,0 +1,415 @@
+body{
+
+	background: #515457;
+}
+
+div#Documento{
+
+margin: 10px auto;
+width: 1000px;
+height: 1270px;
+font-family: Arial, sans-serif;
+background: #fff;
+padding: 5px;
+
+}
+
+div#Cabeza{
+
+	border: 1px solid #000;
+	width: 850px;
+	height: 150px;
+	border-radius: 18px;
+	margin: 18px 15px;
+	box-shadow: 5px 5px;
+	margin-left: 50px;
+
+}
+
+div#Imagen{
+	display:inline-block;
+	margin-top:30px;
+	margin-left:30px;
+	float: left;
+	width: 20px;
+}
+div#Imagen img{
+	width: 80px;
+}
+
+div#Formato{
+
+	text-align: center;
+	display: inline-block;
+	margin: 3px 0;
+	margin-top: 10px;
+	margin-left: 200px;
+	position: absolute;
+	height: 3px;
+	padding: 5px;
+	line-height: 5px;
+}
+
+div#Entidad{
+
+	margin-top: 2px;
+	display: inline-block;
+	float: right;
+	margin-right: 10px;
+	height: 100px;
+	line-height: 2px;
+
+}
+
+.DatosPersonales{
+
+	margin: 30px 60px;
+	width: 850px;
+	height: 30px;
+
+}
+
+.SubTitulo{
+
+	width: 850px;
+	height: 25px;
+	margin-bottom: 20px;
+
+
+}
+.SubTitulo .Numero{
+
+	padding: 3px 8px;
+	background: #000;
+	color: #FFF;
+	border-radius: 70px;
+	float: left;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.SubTitulo .Titulo{
+
+	padding: 3px 35px;
+	margin-right: 1px;
+	background: #000;
+	color: #FFF;
+	border-radius: 70px;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 14px;
+	margin-left: 8px;
+	vertical-align: middle;
+}
+
+.SubTitulo hr{
+
+	border: none;
+	position: absolute;
+	margin-left: 22px;
+	margin-top: 10px;
+	height: 2px;
+	width: 9px;
+	background:#04a1c4;
+}
+
+
+.CamposFormulario{
+
+	border: 1px solid black;
+	width: 850px;
+	height: 350px;
+	box-shadow: 5px 5px;
+	background: #f1fafd;
+	margin: 10px 10px 25px;
+}
+
+.CampoEncabezado{
+
+	margin: 7px;
+	margin-bottom: 10px;
+	font-size: 10px;
+	margin-right: 15px;
+	margin-left: 10px;
+
+}
+.documento_diseño{
+
+	margin-bottom: 10px;
+	font-size: 10px;
+	margin-left: 10px;
+	display: inline-block;
+}
+.documento_diseño input{
+	width:10px;
+}
+
+div#Campos1{
+
+	border:1px solid #000;
+}
+
+div#Apellido1{
+
+	border: 1px solid #000;
+	width: 283px;
+	height: 50px;
+	float: left;
+	border-left: none;
+}
+
+div#Apellido1 input{
+
+	border:none;
+	background: #f1fafd;
+	width: 280px;
+}
+
+div#Apellido2{
+
+	border:1px solid #000;
+	width: 283px;
+	height: 50px;
+	float: left;
+	border-left: none;
+
+}
+
+div#Apellido2 input{
+
+	border:none;
+	background: #f1fafd;
+	width: 280px;
+}
+
+div#Nombres{
+
+	border:1px solid #000;
+	width: 279px;
+	height: 50px;
+	float: right;
+	border-left: none;
+	border-right: none;
+}
+
+div#Nombres input{
+
+	border:none;
+	background: #f1fafd;
+	width: 270px;
+}
+
+div#DocIdentificacion{
+
+	border: 1px solid #000;
+	width: 360px;
+	height: 50px;
+	float: left;
+	border-left: none;
+	border-top: none;
+
+}
+
+.RadioButton{
+
+	padding: 5px;
+	background: #f1fafd;
+	border-radius: 10px;
+	float: left;
+	font-size: 10px;
+	font-weight: bold;
+	border:1px solid #000;
+	position: absolute;
+	margin-top: 5px;
+	margin-left: -5px;
+}
+
+.RadioButton2{
+
+	float: left;
+	font-size: 10px;
+	border:1px solid #000;
+	position: relative;
+	left: 5px;
+	margin-top: 5px;
+	margin-left: -5px;
+
+}
+div#DocIdentificacion input.Docimput{
+
+	border: 1px solid #000;
+	position: absolute;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	background: #f1fafd;
+	width: 150px;
+
+}
+
+div#Sexo{
+
+	border:1px solid #000;
+	width: 100px;
+	height: 50px;
+	float: left;
+	border-left: none;
+	border-top: none;
+}
+
+div#Nacionalidad{
+
+	border:1px solid #000;
+	width: 387px;
+	height: 50px;
+	float: left;
+	border-left: none;
+	border-top: none;
+
+}
+div#Nacionalidad input.Docinput{
+
+	border: 1px solid #000;
+	position: absolute;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	background: #f1fafd;
+	width: 200px;
+	margin-left: 20px;
+
+}
+
+div#LibretaMilitar{
+
+	border:1px solid #000;
+	width: 850px;
+	height: 50px;
+	float: left;
+	border-left: none;
+	border-top: none;
+
+}
+
+div#LibretaMilitar input.Docinput{
+
+	border: 1px solid #000;
+
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	background: #f1fafd;
+	width: 200px;
+	margin-left: 20px;
+}
+
+div#Campo4{
+
+	border:1px solid #000;
+
+}
+
+div#LugarNacimiento{
+
+	height: 195px;
+	float: left;
+	border:1px solid #000;
+	border-left: none;
+	border-bottom: none;
+	border-top: none;
+	width: 385px;
+
+}
+
+
+.dia{
+	width: 30px;
+	margin-left: 5px;
+	background: #f1fafd;
+	border:1px solid #000;
+}
+
+.mes{
+	width: 30px;
+	margin-left: 5px;
+	background: #f1fafd;
+	border:1px solid #000;
+}
+
+.anio{
+	width: 50px;
+	margin-left: 5px;
+	background: #f1fafd;
+	border:1px solid #000;
+}
+
+.pais{
+	margin-left: 39px;
+	border:1px solid #000;
+	border-right: none;
+	border-left: none;
+	border-top: none;
+	background: #f1fafd;
+
+}
+
+.depto{
+	margin-left: 29px;
+	border:1px solid #000;
+	border-right: none;
+	border-left: none;
+	border-top: none;
+	background: #f1fafd;
+}
+
+.municipio{
+	margin-left: 10px;
+	border:1px solid #000;
+	border-right: none;
+	border-left: none;
+	border-top: none;
+	background: #f1fafd;
+}
+
+div#Correspondencia{
+
+	height: 195px;
+	width: 461px;
+	float: left;
+	border:1px solid #000;
+	border-left: none;
+	border-right: none;
+	border-top: none;
+}
+
+.lineaCorre{
+
+	width: 290px;
+	margin-left: 10px;
+	border:1px solid #000;
+	border-left: none;
+	border-right: none;
+	border-top: none;
+	background: #f1fafd;
+
+
+}
+
+
+div#Correspondencia .pais,
+div#Correspondencia .depto{
+
+	margin-top: 10px;
+	margin-left: 2px;
+	width: 156px;
+}
+
+.telefono, .email{
+	width: 141px;
+	margin-top: 10px;
+	border:1px solid #000;
+	border-left: none;
+	border-right: none;
+	border-top: none;
+	background: #f1fafd;
+}
